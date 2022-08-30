@@ -12,9 +12,9 @@
     <url type="homepage">https://tlaun.ch/</url>
     <url type="translate">https://github.com/Nik-mmzd/tl-translations</url>
     <screenshots>
-      <screenshot type="default">https://raw.githubusercontent.com/flathub/ch.tlaun.TL/master/screenshots/1.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/flathub/ch.tlaun.TL/master/screenshots/2.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/flathub/ch.tlaun.TL/master/screenshots/3.png</screenshot>
+      <screenshot type="default">https://media.githubusercontent.com/media/flathub/ch.tlaun.TL/master/screenshots/1.png</screenshot>
+      <screenshot>https://media.githubusercontent.com/media/flathub/ch.tlaun.TL/master/screenshots/2.png</screenshot>
+      <screenshot>https://media.githubusercontent.com/media/flathub/ch.tlaun.TL/master/screenshots/3.png</screenshot>
     </screenshots>
     <requires>
         <display_length compare="ge">360</display_length>
