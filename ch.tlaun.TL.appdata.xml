@@ -3,6 +3,7 @@
     <id>ch.tlaun.TL</id>
     <metadata_license>CC0-1.0</metadata_license>
     <name>TL: Legacy</name>
+    <name_variant_suffix>Beta</name_variant_suffix>
     <summary>Play Minecraft and create your own world!</summary>
     <description>
         <p>TL is a simple, lightweight and yet highly customizeable alternative Minecraft launcher.</p>
