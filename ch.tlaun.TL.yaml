@@ -9,6 +9,7 @@ tags:
   - proprietary
 finish-args:
   - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
+  - --env=TL_BRAND=legacy_beta
   - --share=ipc
   - --socket=x11
   - --share=network
@@ -61,12 +62,12 @@ modules:
         dest: bin
       - type: file
         dest: tl
-        url: https://tlaun.ch/repo/update/legacy/bootstrap/23b73caec8937a706e2a262f87e7a15864914297b2f741f6c69da31a0ebd444e.jar
-        sha256: 23b73caec8937a706e2a262f87e7a15864914297b2f741f6c69da31a0ebd444e
+        url: https://tlaun.ch/repo/update/legacy_beta/bootstrap/642ac98e4bdfc9c73f3697381fec697933d5f4ce0c7427b6f9210eb5cb24813d.jar
+        sha256: 642ac98e4bdfc9c73f3697381fec697933d5f4ce0c7427b6f9210eb5cb24813d
         dest-filename: bootstrap.jar
         x-checker-data:
           type: json
-          url: https://tlaun.ch/brands/legacy/bootstrap.json
+          url: https://tlaun.ch/brands/legacy_beta/bootstrap.json
           version-query: .bootstrap_java.version | split("+")[0]
           url-query: .bootstrap_java.url[0]
     build-commands:
