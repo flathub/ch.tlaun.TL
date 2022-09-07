@@ -30,9 +30,9 @@
     <url type="translate">https://github.com/Nik-mmzd/tl-translations</url>
     <url type="contact">https://tlaun.ch/discord/intl</url>
     <screenshots>
-      <screenshot type="default">https://media.githubusercontent.com/media/flathub/ch.tlaun.TL/master/screenshots/1.png</screenshot>
-      <screenshot>https://media.githubusercontent.com/media/flathub/ch.tlaun.TL/master/screenshots/2.png</screenshot>
-      <screenshot>https://media.githubusercontent.com/media/flathub/ch.tlaun.TL/master/screenshots/3.png</screenshot>
+      <screenshot type="default">https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/1.png</screenshot>
+      <screenshot>https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/2.png</screenshot>
+      <screenshot>https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/3.png</screenshot>
     </screenshots>
     <requires>
         <display_length compare="ge">360</display_length>
