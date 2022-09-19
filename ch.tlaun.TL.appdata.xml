@@ -6,6 +6,7 @@
     <summary>Play Minecraft and create your own world!</summary>
     <summary xml:lang="ru">Играйте в Minecraft и создавайте свой собственный мир!</summary>
     <summary xml:lang="uk">Грайте в Minecraft і створюйте свій власний світ!</summary>
+    <summary xml:lang="be">Гуляй у Minecraft і ствары свой уласны свет!</summary>
     <description>
         <p>TL is a simple, lightweight and yet highly customizeable alternative Minecraft launcher.</p>
         <p>It features pre-made modded versions (Forge, Optifine and Fabric) as well as optional per-version game profile folders, keeping data from different versions in different subfolders.</p>
@@ -17,6 +18,10 @@
     <description xml:lang="uk">
         <p>TL - простий, легкий та водночас добре настроюваний альтернативний лаунчер Minecraft.</p>
         <p>Модифіковані версії (Forge, Fabric, OptiFine) зразу доступні для встановлення так само, як і "ванільна" гра, і лаунчер сам може зберігати їх дані в окремих папках, щоб не змішувалося.</p>
+    </description>
+    <description xml:lang="be">
+        <p>TL гэта просты, легкаважны і вельмі наладжвальны альтэрнатыўны лаўнчар Minecraft.</p>
+        <p>Ён дазваляе не толькі запускаць гатовыя мадыфікаваныя версіі (Forge, Optifine i Fabric), але і трымаць дадзеныя гульнявых профіляў у асобных папках у залежнасці ад версіі.</p>
     </description>
     <developer_name>TL Team</developer_name>
     <update_contact>me@aur.rocks</update_contact>
@@ -48,6 +53,7 @@
         <content_attribute id="social-chat">intense</content_attribute>
     </content_rating>
     <releases>
+      <release version="1.26.0" date="2022-09-19"/>
       <release version="1.25.0" date="2022-08-29"/>
     </releases>
 </component>
