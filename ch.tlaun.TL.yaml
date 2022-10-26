@@ -15,8 +15,6 @@ finish-args:
   - --share=network
   - --device=dri
   - --socket=pulseaudio
-  - --persist=.minecraft
-  - --persist=.tlauncher
 modules:
   - name: openjdk
     buildsystem: simple
