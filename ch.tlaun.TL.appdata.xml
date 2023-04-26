@@ -40,12 +40,10 @@
       <screenshot>https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/3.png</screenshot>
     </screenshots>
     <requires>
-        <display_length compare="ge">360</display_length>
+      <control>keyboard</control>
+      <control>pointing</control>
+      <display_length compare="ge">768</display_length>
     </requires>
-    <recommends>
-        <control>pointing</control>
-        <control>keyboard</control>
-    </recommends>
     <launchable type="desktop-id">ch.tlaun.TL.desktop</launchable>
     <project_license>LicenseRef-proprietary</project_license>
     <content_rating type="oars-1.1">
