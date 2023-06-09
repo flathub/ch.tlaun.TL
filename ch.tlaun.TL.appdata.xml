@@ -2,28 +2,28 @@
 <component type="desktop-application">
     <id>ch.tlaun.TL</id>
     <metadata_license>CC0-1.0</metadata_license>
-    <name>TL: Legacy</name>
+    <name>Legacy Launcher</name>
     <summary>Play Minecraft and create your own world!</summary>
     <summary xml:lang="ru">Играйте в Minecraft и создавайте свой собственный мир!</summary>
     <summary xml:lang="uk">Грайте в Minecraft і створюйте свій власний світ!</summary>
     <summary xml:lang="be">Гуляй у Minecraft і ствары свой уласны свет!</summary>
     <description>
-        <p>TL is a simple, lightweight and yet highly customizeable alternative Minecraft launcher.</p>
+        <p>Legacy Launcher is a simple, lightweight and yet highly customizeable alternative Minecraft launcher.</p>
         <p>It features pre-made modded versions (Forge, Optifine and Fabric) as well as optional per-version game profile folders, keeping data from different versions in different subfolders.</p>
     </description>
     <description xml:lang="ru">
-        <p>TL - простой, легковесный и настраиваемый альтернативный лаунчер для Minecraft.</p>
+        <p>Legacy Launcher - простой, легковесный и настраиваемый альтернативный лаунчер для Minecraft.</p>
         <p>Он предлагает преднастроенный версии для модов (Forge, Optifine и Fabric), опциональное разделение версий на подпапки, таким образом сохраняя данные для каждой версии в отдельных папках.</p>
     </description>
     <description xml:lang="uk">
-        <p>TL - простий, легкий та водночас добре настроюваний альтернативний лаунчер Minecraft.</p>
+        <p>Legacy Launcher - простий, легкий та водночас добре настроюваний альтернативний лаунчер Minecraft.</p>
         <p>Модифіковані версії (Forge, Fabric, OptiFine) зразу доступні для встановлення так само, як і "ванільна" гра, і лаунчер сам може зберігати їх дані в окремих папках, щоб не змішувалося.</p>
     </description>
     <description xml:lang="be">
-        <p>TL гэта просты, легкаважны і вельмі наладжвальны альтэрнатыўны лаўнчар Minecraft.</p>
+        <p>Legacy Launcher гэта просты, легкаважны і вельмі наладжвальны альтэрнатыўны лаўнчар Minecraft.</p>
         <p>Ён дазваляе не толькі запускаць гатовыя мадыфікаваныя версіі (Forge, Optifine i Fabric), але і трымаць дадзеныя гульнявых профіляў у асобных папках у залежнасці ад версіі.</p>
     </description>
-    <developer_name>TL Team</developer_name>
+    <developer_name>Legacy Launcher Team</developer_name>
     <update_contact>me@aur.rocks</update_contact>
     <keywords>
       <keyword translate="no">Minecraft</keyword>
@@ -31,9 +31,9 @@
       <keyword xml:lang="ru">Лаунчер</keyword>
       <keyword xml:lang="uk">Лаунчер</keyword>
     </keywords>
-    <url type="homepage">https://tlaun.ch/</url>
+    <url type="homepage">https://llaun.ch/</url>
     <url type="translate">https://github.com/Nik-mmzd/tl-translations</url>
-    <url type="contact">https://tlaun.ch/discord/intl</url>
+    <url type="contact">https://llaun.ch/discord/intl</url>
     <screenshots>
       <screenshot type="default">https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/1.png</screenshot>
       <screenshot>https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/2.png</screenshot>
