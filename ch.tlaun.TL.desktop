@@ -1,8 +1,8 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=TL
-Comment=TL is Minecraft Launcher
+Name=Legacy Launcher
+Comment=Legacy Launcher is a Minecraft Launcher
 Icon=ch.tlaun.TL
 Exec=ch.tlaun.TL
 NoDisplay=false
