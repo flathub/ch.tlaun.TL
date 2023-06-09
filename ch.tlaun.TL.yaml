@@ -68,7 +68,7 @@ modules:
         dest-filename: bootstrap.jar
         x-checker-data:
           type: json
-          url: https://tlaun.ch/brands/legacy_beta/bootstrap.json
+          url: https://llaun.ch/brands/legacy_beta/bootstrap.json
           version-query: .bootstrap_java.version | split("+")[0]
           url-query: .bootstrap_java.url[0]
     build-commands:
