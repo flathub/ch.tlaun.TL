@@ -9,19 +9,13 @@
     <summary xml:lang="be">Гуляй у Minecraft і ствары свой уласны свет!</summary>
     <description>
         <p>Legacy Launcher is a simple, lightweight and yet highly customizeable alternative Minecraft launcher.</p>
+        <p xml:lang="ru">Legacy Launcher - простой, легковесный и настраиваемый альтернативный лаунчер для Minecraft.</p>
+        <p xml:lang="uk">Legacy Launcher - простий, легкий та водночас добре настроюваний альтернативний лаунчер Minecraft.</p>
+        <p xml:lang="be">Legacy Launcher гэта просты, легкаважны і вельмі наладжвальны альтэрнатыўны лаўнчар Minecraft.</p>
         <p>It features pre-made modded versions (Forge, Optifine and Fabric) as well as optional per-version game profile folders, keeping data from different versions in different subfolders.</p>
-    </description>
-    <description xml:lang="ru">
-        <p>Legacy Launcher - простой, легковесный и настраиваемый альтернативный лаунчер для Minecraft.</p>
-        <p>Он предлагает преднастроенный версии для модов (Forge, Optifine и Fabric), опциональное разделение версий на подпапки, таким образом сохраняя данные для каждой версии в отдельных папках.</p>
-    </description>
-    <description xml:lang="uk">
-        <p>Legacy Launcher - простий, легкий та водночас добре настроюваний альтернативний лаунчер Minecraft.</p>
-        <p>Модифіковані версії (Forge, Fabric, OptiFine) зразу доступні для встановлення так само, як і "ванільна" гра, і лаунчер сам може зберігати їх дані в окремих папках, щоб не змішувалося.</p>
-    </description>
-    <description xml:lang="be">
-        <p>Legacy Launcher гэта просты, легкаважны і вельмі наладжвальны альтэрнатыўны лаўнчар Minecraft.</p>
-        <p>Ён дазваляе не толькі запускаць гатовыя мадыфікаваныя версіі (Forge, Optifine i Fabric), але і трымаць дадзеныя гульнявых профіляў у асобных папках у залежнасці ад версіі.</p>
+        <p xml:lang="ru">Он предлагает преднастроенный версии для модов (Forge, Optifine и Fabric), опциональное разделение версий на подпапки, таким образом сохраняя данные для каждой версии в отдельных папках.</p>
+        <p xml:lang="uk">Модифіковані версії (Forge, Fabric, OptiFine) зразу доступні для встановлення так само, як і "ванільна" гра, і лаунчер сам може зберігати їх дані в окремих папках, щоб не змішувалося.</p>
+        <p xml:lang="be">Ён дазваляе не толькі запускаць гатовыя мадыфікаваныя версіі (Forge, Optifine i Fabric), але і трымаць дадзеныя гульнявых профіляў у асобных папках у залежнасці ад версіі.</p>
     </description>
     <developer_name>Legacy Launcher Team</developer_name>
     <update_contact>me@aur.rocks</update_contact>
