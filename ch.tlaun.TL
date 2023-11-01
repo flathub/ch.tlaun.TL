@@ -12,7 +12,10 @@ for i in {0..9}; do
     test -S $XDG_RUNTIME_DIR/discord-ipc-$i || ln -sf {app/com.discordapp.Discord,$XDG_RUNTIME_DIR}/discord-ipc-$i;
 done
 
-exec java "${tlBootstrapOptions[@]}" -jar /app/lib/tl/bootstrap.jar \
+export PATH="${PATH}${PATH:+:}/usr/lib/extensions/vulkan/gamescope/bin:/usr/lib/extensions/vulkan/MangoHud/bin"
+export VK_LAYER_PATH="/usr/lib/extensions/vulkan/share/vulkan/implicit_layer.d/"
+
+exec java "${tlBootstrapOptions[@]}" -jar /app/lib/legacy_launcher/bootstrap.jar \
   --ignoreSelfUpdate \
   --brand="$TL_BRAND" \
   --targetJar=/var/data/launcher.jar \
