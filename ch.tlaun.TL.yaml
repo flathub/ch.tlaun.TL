@@ -63,8 +63,8 @@ modules:
         dest: bin
       - type: file
         dest: tl
-        url: https://llaun.ch/repo/update/legacy_beta/bootstrap/b60e6234cae50af6aabc59f3de94402fe1d2df1da9ff9ad80c4733b13a4d11d1.jar
-        sha256: b60e6234cae50af6aabc59f3de94402fe1d2df1da9ff9ad80c4733b13a4d11d1
+        url: https://llaun.ch/repo/update/legacy_beta/bootstrap/4d6003944826d529fadefa319b8e160d23060fec4a9dc236599db02369b47d25.jar
+        sha256: 4d6003944826d529fadefa319b8e160d23060fec4a9dc236599db02369b47d25
         dest-filename: bootstrap.jar
         x-checker-data:
           type: json
