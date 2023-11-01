@@ -1,6 +1,6 @@
 app-id: ch.tlaun.TL
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk17
@@ -23,9 +23,11 @@ modules:
     buildsystem: simple
     build-commands:
       - /usr/lib/sdk/openjdk17/install.sh
+
   - name: flite
     config-opts:
       - --enable-shared
+    no-parallel-make: true
     sources:
       - type: git
         url: https://github.com/festvox/flite.git
@@ -34,11 +36,21 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^v([.\d]+)$
+
   - name: xrandr
     sources:
       - type: archive
-        url: https://www.x.org/archive/individual/app/xrandr-1.5.1.tar.gz
-        sha256: 7b99edb7970a1365eaf5bcaf552144e4dfc3ccf510c4abc08569849929fb366e
+        url: https://xorg.freedesktop.org/archive/individual/app/xrandr-1.5.2.tar.xz
+        sha256: c8bee4790d9058bacc4b6246456c58021db58a87ddda1a9d0139bf5f18f1f240
+        x-checker-data:
+          type: anitya
+          project-id: 14957
+          stable-only: true
+          url-template: https://xorg.freedesktop.org/archive/individual/app/xrandr-$version.tar.xz
+    cleanup:
+      - /share/man
+      - /bin/xkeystone
+
   - name: resources
     buildsystem: simple
     sources:
@@ -55,6 +67,15 @@ modules:
       - install -Dt /app/share/metainfo ch.tlaun.TL.appdata.xml
       - install -D ch.tlaun.TL.128x128.png /app/share/icons/hicolor/128x128/apps/ch.tlaun.TL.png
       - install -D ch.tlaun.TL.256x256.png /app/share/icons/hicolor/256x256/apps/ch.tlaun.TL.png
+
+  - name: enhance
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 prime-run /app/bin/prime-run
+    sources:
+      - type: file
+        path: prime-run
+
   - name: bootstrap
     buildsystem: simple
     sources:
@@ -62,7 +83,7 @@ modules:
         path: ch.tlaun.TL
         dest: bin
       - type: file
-        dest: tl
+        dest: legacy_launcher
         url: https://llaun.ch/repo/update/legacy_beta/bootstrap/4d6003944826d529fadefa319b8e160d23060fec4a9dc236599db02369b47d25.jar
         sha256: 4d6003944826d529fadefa319b8e160d23060fec4a9dc236599db02369b47d25
         dest-filename: bootstrap.jar
@@ -73,5 +94,5 @@ modules:
           url-query: .bootstrap_java.url[0]
     build-commands:
       - mv bin/ch.tlaun.TL /app/bin
-      - mv tl /app/lib
+      - mv legacy_launcher /app/lib
 
