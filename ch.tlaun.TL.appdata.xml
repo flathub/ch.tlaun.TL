@@ -3,10 +3,10 @@
     <id>ch.tlaun.TL</id>
     <metadata_license>CC0-1.0</metadata_license>
     <name>Legacy Launcher</name>
-    <summary>Play Minecraft and create your own world!</summary>
-    <summary xml:lang="ru">Играйте в Minecraft и создавайте свой собственный мир!</summary>
-    <summary xml:lang="uk">Грайте в Minecraft і створюйте свій власний світ!</summary>
-    <summary xml:lang="be">Гуляй у Minecraft і ствары свой уласны свет!</summary>
+    <summary>Powerful Minecraft launcher</summary>
+    <summary xml:lang="ru">Мощный Minecraft лаунчер</summary>
+    <summary xml:lang="uk">Потужний лаунчер Minecraft</summary>
+    <summary xml:lang="be">Магутны лаунчер Minecraft</summary>
     <description>
         <p>Legacy Launcher is a simple, lightweight and yet highly customizeable alternative Minecraft launcher.</p>
         <p xml:lang="ru">Legacy Launcher - простой, легковесный и настраиваемый альтернативный лаунчер для Minecraft.</p>
