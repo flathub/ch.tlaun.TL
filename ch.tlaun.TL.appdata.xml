@@ -3,19 +3,14 @@
     <id>ch.tlaun.TL</id>
     <metadata_license>CC0-1.0</metadata_license>
     <name>Legacy Launcher</name>
-    <summary>Powerful Minecraft launcher</summary>
-    <summary xml:lang="ru">Мощный Minecraft лаунчер</summary>
-    <summary xml:lang="uk">Потужний лаунчер Minecraft</summary>
-    <summary xml:lang="be">Магутны лаунчер Minecraft</summary>
+    <name_variant_suffix>Beta</name_variant_suffix>
+    <summary>Play Minecraft in your own world!</summary>
+    <summary xml:lang="ru">Играйте в Minecraft в своём собственном мире!</summary>
     <description>
         <p>Legacy Launcher is a simple, lightweight and yet highly customizeable alternative Minecraft launcher.</p>
         <p xml:lang="ru">Legacy Launcher - простой, легковесный и настраиваемый альтернативный лаунчер для Minecraft.</p>
-        <p xml:lang="uk">Legacy Launcher - простий, легкий та водночас добре настроюваний альтернативний лаунчер Minecraft.</p>
-        <p xml:lang="be">Legacy Launcher гэта просты, легкаважны і вельмі наладжвальны альтэрнатыўны лаўнчар Minecraft.</p>
         <p>It features pre-made modded versions (Forge, Optifine and Fabric) as well as optional per-version game profile folders, keeping data from different versions in different subfolders.</p>
         <p xml:lang="ru">Он предлагает преднастроенный версии для модов (Forge, Optifine и Fabric), опциональное разделение версий на подпапки, таким образом сохраняя данные для каждой версии в отдельных папках.</p>
-        <p xml:lang="uk">Модифіковані версії (Forge, Fabric, OptiFine) зразу доступні для встановлення так само, як і "ванільна" гра, і лаунчер сам може зберігати їх дані в окремих папках, щоб не змішувалося.</p>
-        <p xml:lang="be">Ён дазваляе не толькі запускаць гатовыя мадыфікаваныя версіі (Forge, Optifine i Fabric), але і трымаць дадзеныя гульнявых профіляў у асобных папках у залежнасці ад версіі.</p>
     </description>
     <developer_name>Legacy Launcher Team</developer_name>
     <update_contact>me@aur.rocks</update_contact>
@@ -23,15 +18,23 @@
       <keyword translate="no">Minecraft</keyword>
       <keyword>Launcher</keyword>
       <keyword xml:lang="ru">Лаунчер</keyword>
-      <keyword xml:lang="uk">Лаунчер</keyword>
     </keywords>
     <url type="homepage">https://llaun.ch/</url>
     <url type="translate">https://github.com/Nik-mmzd/tl-translations</url>
     <url type="contact">https://llaun.ch/discord/intl</url>
     <screenshots>
-      <screenshot type="default">https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/1.png</screenshot>
-      <screenshot>https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/2.png</screenshot>
-      <screenshot>https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/3.png</screenshot>
+      <screenshot type="default">
+          <image>https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/1.png</image>
+          <caption>Main menu</caption>
+      </screenshot>
+      <screenshot>
+          <image>https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/2.png</image>
+          <caption>Settings panel</caption>
+      </screenshot>
+      <screenshot>
+          <image>https://github.com/flathub/ch.tlaun.TL/raw/master/screenshots/3.png</image>
+          <caption>Light theme view</caption>
+      </screenshot>
     </screenshots>
     <requires>
       <control>keyboard</control>
