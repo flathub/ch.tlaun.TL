@@ -83,7 +83,7 @@ modules:
         dest: bin
       - type: file
         dest: legacy_launcher
-        url: https://cdn.turikhay.ru/lln4/repo/update/legacy/bootstrap/d97592e2a60708998f1b6ec2d32aff6034477cd124d2ea5cd0c137d9e11b075e.jar
+        url: https://updates.llaun.ch/legacy/bootstrap/d97592e2a60708998f1b6ec2d32aff6034477cd124d2ea5cd0c137d9e11b075e.jar
         sha256: d97592e2a60708998f1b6ec2d32aff6034477cd124d2ea5cd0c137d9e11b075e
         dest-filename: bootstrap.jar
         x-checker-data:
