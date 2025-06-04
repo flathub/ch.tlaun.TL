@@ -84,12 +84,12 @@ modules:
         dest: bin
       - type: file
         dest: legacy_launcher
-        url: https://llaun.ch/repo/update/legacy_beta/bootstrap/795bb69862cc6bd99978a8f6270785919e56ef90810b7c437cd70975253eb5c3.jar
-        sha256: 795bb69862cc6bd99978a8f6270785919e56ef90810b7c437cd70975253eb5c3
+        url: https://updates.llaun.ch/legacy_beta/bootstrap/3e7b50d93822bee7bc85f24c900bd48a7553e5e8c3468f83b46e18b97593e11e.jar
+        sha256: 3e7b50d93822bee7bc85f24c900bd48a7553e5e8c3468f83b46e18b97593e11e
         dest-filename: bootstrap.jar
         x-checker-data:
           type: json
-          url: https://llaun.ch/brands/legacy_beta/bootstrap.json
+          url: https://bootstrap.llaun.ch/legacy_beta/bootstrap.json
           version-query: .bootstrap_java.version | split("+")[0]
           url-query: .bootstrap_java.url[0]
     build-commands:
