@@ -83,8 +83,8 @@ modules:
         dest: bin
       - type: file
         dest: legacy_launcher
-        url: https://updates.llaun.ch/legacy/bootstrap/1dfbfdb7b5315e59352f9fd655f066bbfa3c336e2eb8b5d23d459abbec76ecf0.jar
-        sha256: 1dfbfdb7b5315e59352f9fd655f066bbfa3c336e2eb8b5d23d459abbec76ecf0
+        url: https://updates.legacylauncher.ru/legacy/bootstrap/9f827efc8f21b14e0403a7aac9450849c261bcba6451d9abeeee6388b850857e.jar
+        sha256: 9f827efc8f21b14e0403a7aac9450849c261bcba6451d9abeeee6388b850857e
         dest-filename: bootstrap.jar
         x-checker-data:
           type: json
