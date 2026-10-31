@@ -1,6 +1,6 @@
 app-id: ch.tlaun.TL
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk25
@@ -83,8 +83,8 @@ modules:
         dest: bin
       - type: file
         dest: legacy_launcher
-        url: https://updates.legacylauncher.ru/legacy/bootstrap/9f827efc8f21b14e0403a7aac9450849c261bcba6451d9abeeee6388b850857e.jar
-        sha256: 9f827efc8f21b14e0403a7aac9450849c261bcba6451d9abeeee6388b850857e
+        url: https://updates.llaun.ch/legacy/bootstrap/09ba7517c8a9b30780ff9a6de230b8905247835ae0da914d66991e2b3b4b6c4e.jar
+        sha256: 09ba7517c8a9b30780ff9a6de230b8905247835ae0da914d66991e2b3b4b6c4e
         dest-filename: bootstrap.jar
         x-checker-data:
           type: json
